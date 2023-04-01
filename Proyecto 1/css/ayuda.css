@@ -1,0 +1,219 @@
+/* PARA EL LOGO Y LOS ITEMS */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  
+  }
+  
+  nav a {
+    color:#fff;
+    text-decoration: none;
+  
+  }
+  
+  header img {
+    max-width: 200px;
+  }
+  
+  
+  
+  /* ------------------------ */
+  .buscar1{
+    align-items:flex-end;
+  }
+  
+  .logo img {
+    width: 250px;
+    height: auto;
+  
+  }
+  
+  .navegacion {
+    float: right;
+    display: flex;
+    flex-direction: row;
+  
+  
+  }
+
+  
+  
+  .buscar1button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/* del necesitas ayuda */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Estilos de encabezado */
+  
+  header {
+    background-color:black;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Estilos de sección de ayuda técnica */
+  
+  .ayuda-tecnica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .ayuda-tecnica-imagen {
+    margin-right: 50px;
+  }
+  
+  .ayuda-tecnica-imagen img {
+    max-width: 100%;
+  }
+  
+  .ayuda-tecnica-contenido h2 {
+    margin-top: 0;
+  }
+  
+  .ayuda-tecnica-contenido button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Estilos de pie de página */
+  
+  footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .calificacion-sitio {
+    text-align: center;
+  }
+  
+  .calificacion-sitio a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .calificacion-sitio a:hover {
+    text-decoration: underline;
+  }
+  p{
+    font-size: 1.2em;
+    font-family: 'Roboto',sans-serif;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+  }
+/* responsive */
+@media (max-width: 700px) {
+  .container {
+      width: 100%;
+      margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  img {
+    max-width:100%;
+  }
+  }
+/* Smartphones (horizontal y vertical) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* estilos */
+}
+
+/* Smartphones (horizontal) */
+@media only screen 
+and (min-width : 321px) {
+/* estilos */
+}
+
+/* Smartphones (vertical)  */
+@media only screen 
+and (max-width : 320px) {
+/* estilos */
+}
+
+/* iPads (vertical y horizontal) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* estilos */
+}
+
+/* iPads (horizontal) */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* estilos */
+}
+
+/* iPads (vertical)  */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* estilos */
+}
+
+/* pc de escritorio y portátiles */
+@media only screen 
+and (min-width : 1224px) {
+/* estilos */
+}
+
+/* Pantallas grandes  */
+@media only screen 
+and (min-width : 1824px) {
+/* estilos */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* estilos */
+}
