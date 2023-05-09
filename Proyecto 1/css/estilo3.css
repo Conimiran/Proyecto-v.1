@@ -1,199 +1,200 @@
-body {
-	font-family: Arial, sans-serif;
-	background-color: black;
-}
-
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-}
-
-main {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 20px;
-}
-
-section {
-	flex-basis: 30%;
-	margin-bottom: 30px;
-}
-
-h2 {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
-
-ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color:black;
-	color: #fff;
-	padding: 10px;
-  }
-  
-  nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-  }
-  
-  nav li {
-	margin: 0 20px;
-   
-  }
-  
-  nav a {
-	color: #fff;
-	text-decoration: none;
-	
-  }
-  
-  header img {
-	max-width: 200px;
-  }
-  
-  .principal{
-	background-color: black;
-	color: white;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  .buscar{
-	align-items: end;
-  }
-  
-  
-  .logo img {
-	width: 350px;
-	height: auto;
-	
-  }
-  .navegacion{
-	float: right;
-	display: flex;
-	flex-direction:row;
-	text-align: end;
-	
-  
-  }
-  .buscar{
-	display: flex;
-	align-items:end;
-  }
-  
-  .logo img {
-	width: 250px;
-	height: auto;
-	
-  }
-  
-  .navegacion{
-	float: right;
-	display: flex;
-	flex-direction: row;
-	text-align: end;
-	
-  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
   }
 
-li{
-	display: inline-block;
-}
-li img{
-	margin: 0;
-	padding: 0;
-}
-main img{
-	max-width: 300px;
-}
-p{
-	font-size: 1.2em;
-	font-family: 'Roboto',sans-serif;
-}
-h2{
-	text-align: center;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 2em;
-}
-/* responsive */
-@media (max-width: 700px) {
-	.container {
-		width: 100%;
-		margin: 0 auto;
-	}
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
   }
-  @media (max-width: 480px) {
-	img {
-	  max-width:100%;
-	}
-	}
-  /* Smartphones (horizontal y vertical) */
-  @media only screen 
-  and (min-device-width : 320px) 
-  and (max-device-width : 480px) {
-  /* estilos */
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
   }
-  
-  /* Smartphones (horizontal) */
-  @media only screen 
-  and (min-width : 321px) {
-  /* estilos */
+
+  section {
+    flex-basis: 30%;
+    margin-bottom: 30px;
   }
-  
-  /* Smartphones (vertical)  */
-  @media only screen 
-  and (max-width : 320px) {
-  /* estilos */
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
   }
-  
-  /* iPads (vertical y horizontal) */
-  @media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) {
-  /* estilos */
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
-  
-  /* iPads (horizontal) */
-  @media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) 
-  and (orientation : landscape) {
-  /* estilos */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    nav li {
+    margin: 0 20px;
+    
+    }
+    
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    
+    }
+    
+    header img {
+    max-width: 200px;
+    }
+    
+    .principal{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .buscar{
+    align-items: end;
+    }
+    
+    
+    .logo img {
+    width: 350px;
+    height: auto;
+    
+    }
+    .navegacion{
+    float: right;
+    display: flex;
+    flex-direction:row;
+    text-align: end;
+    
+    
+    }
+    .buscar-texto{
+      color: blue;
+      display: flex;
+      align-items:end;
+    }
+    
+    .logo img {
+    width: 250px;
+    height: auto;
+    
+    }
+    
+    .navegacion{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    
+    
+    }
+
+  li{
+    display: inline-block;
   }
-  
-  /* iPads (vertical)  */
-  @media only screen 
-  and (min-device-width : 768px) 
-  and (max-device-width : 1024px) 
-  and (orientation : portrait) {
-  /* estilos */
+  li img{
+    margin: 0;
+    padding: 0;
   }
-  
-  /* pc de escritorio y portátiles */
-  @media only screen 
-  and (min-width : 1224px) {
-  /* estilos */
+  main img{
+    max-width: 300px;
   }
-  
-  /* Pantallas grandes  */
-  @media only screen 
-  and (min-width : 1824px) {
-  /* estilos */
+  p{
+    font-size: 1.2em;
+    font-family: 'Roboto',sans-serif;
   }
-  
-  /* iPhone 4 ----------- */
-  @media
-  only screen and (-webkit-min-device-pixel-ratio : 1.5),
-  only screen and (min-device-pixel-ratio : 1.5) {
-  /* estilos */
+  h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
   }
+  /* responsive */
+  @media (max-width: 700px) {
+    .container {
+      width: 100%;
+      margin: 0 auto;
+    }
+    }
+    @media (max-width: 480px) {
+    img {
+      max-width:100%;
+    }
+    }
+    /* Smartphones (horizontal y vertical) */
+    @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px) {
+    /* estilos */
+    }
+    
+    /* Smartphones (horizontal) */
+    @media only screen 
+    and (min-width : 321px) {
+    /* estilos */
+    }
+    
+    /* Smartphones (vertical)  */
+    @media only screen 
+    and (max-width : 320px) {
+    /* estilos */
+    }
+    
+    /* iPads (vertical y horizontal) */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) {
+    /* estilos */
+    }
+    
+    /* iPads (horizontal) */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : landscape) {
+    /* estilos */
+    }
+    
+    /* iPads (vertical)  */
+    @media only screen 
+    and (min-device-width : 768px) 
+    and (max-device-width : 1024px) 
+    and (orientation : portrait) {
+    /* estilos */
+    }
+    
+    /* pc de escritorio y portátiles */
+    @media only screen 
+    and (min-width : 1224px) {
+    /* estilos */
+    }
+    
+    /* Pantallas grandes  */
+    @media only screen 
+    and (min-width : 1824px) {
+    /* estilos */
+    }
+    
+    /* iPhone 4 ----------- */
+    @media
+    only screen and (-webkit-min-device-pixel-ratio : 1.5),
+    only screen and (min-device-pixel-ratio : 1.5) {
+    /* estilos */
+    }
